@@ -1,0 +1,646 @@
+[
+  {
+    "name": "Desert Pass",
+    "type": "toggle",
+    "img": "images/items/W2icon.png",
+    "codes": "item_desert_pass"
+  },
+  {
+    "name": "Isle Pass",
+    "type": "toggle",
+    "img": "images/items/W3icon.png",
+    "codes": "item_isle_pass"
+  },
+  {
+    "name": "Jungle Pass",
+    "type": "toggle",
+    "img": "images/items/W4icon.png",
+    "codes": "item_jungle_pass"
+  },
+  {
+    "name": "Glacier Pass",
+    "type": "toggle",
+    "img": "images/items/W5icon.png",
+    "codes": "item_glacier_pass"
+  },
+  {
+    "name": "Mountain Pass",
+    "type": "toggle",
+    "img": "images/items/W6icon.png",
+    "codes": "item_mountain_pass"
+  },
+  {
+    "name": "Cloud Pass",
+    "type": "toggle",
+    "img": "images/items/W7icon.png",
+    "codes": "item_cloud_pass"
+  },
+  {
+    "name": "Volcano Pass",
+    "type": "toggle",
+    "img": "images/items/W8icon.png",
+    "codes": "item_volcano_pass"
+  },
+  {
+    "name": "Grassland Tower Key",
+    "type": "toggle",
+    "img": "images/items/Tower_NSMB.png",
+    "codes": "item_grassland_tower_key"
+  },
+  {
+    "name": "Grassland Castle Key",
+    "type": "toggle",
+    "img": "images/items/NSMB_Castle_w._Shadow.png",
+    "codes": "item_grassland_castle_key"
+  },
+  {
+    "name": "Desert Tower Key",
+    "type": "toggle",
+    "img": "images/items/Tower_NSMB.png",
+    "codes": "item_desert_tower_key"
+  },
+  {
+    "name": "Desert Castle Key",
+    "type": "toggle",
+    "img": "images/items/NSMB_Castle_w._Shadow.png",
+    "codes": "item_desert_castle_key"
+  },
+  {
+    "name": "Tropical Tower Key",
+    "type": "toggle",
+    "img": "images/items/Tower_NSMB.png",
+    "codes": "item_tropical_tower_key"
+  },
+  {
+    "name": "Tropical Castle Key",
+    "type": "toggle",
+    "img": "images/items/NSMB_Castle_w._Shadow.png",
+    "codes": "item_tropical_castle_key"
+  },
+  {
+    "name": "Jungle Tower Key",
+    "type": "toggle",
+    "img": "images/items/Tower_NSMB.png",
+    "codes": "item_jungle_tower_key"
+  },
+  {
+    "name": "Jungle Castle Key",
+    "type": "toggle",
+    "img": "images/items/NSMB_Castle_w._Shadow.png",
+    "codes": "item_jungle_castle_key"
+  },
+  {
+    "name": "Glacier Tower Key",
+    "type": "toggle",
+    "img": "images/items/Tower_NSMB.png",
+    "codes": "item_glacier_tower_key"
+  },
+  {
+    "name": "Glacier Castle Key",
+    "type": "toggle",
+    "img": "images/items/NSMB_Castle_w._Shadow.png",
+    "codes": "item_glacier_castle_key"
+  },
+  {
+    "name": "Mountain Tower 1 Key",
+    "type": "toggle",
+    "img": "images/items/Tower_NSMB.png",
+    "codes": "item_mountain_tower_1_key"
+  },
+  {
+    "name": "Mountain Tower 2 Key",
+    "type": "toggle",
+    "img": "images/items/Tower_NSMB.png",
+    "codes": "item_mountain_tower_2_key"
+  },
+  {
+    "name": "Mountain Castle Key",
+    "type": "toggle",
+    "img": "images/items/NSMB_Castle_w._Shadow.png",
+    "codes": "item_mountain_castle_key"
+  },
+  {
+    "name": "Sky Tower Key",
+    "type": "toggle",
+    "img": "images/items/Tower_NSMB.png",
+    "codes": "item_sky_tower_key"
+  },
+  {
+    "name": "Sky Castle Key",
+    "type": "toggle",
+    "img": "images/items/NSMB_Castle_w._Shadow.png",
+    "codes": "item_sky_castle_key"
+  },
+  {
+    "name": "Volcano Tower 1 Key",
+    "type": "toggle",
+    "img": "images/items/Tower_NSMB.png",
+    "codes": "item_volcano_tower_1_key"
+  },
+  {
+    "name": "Volcano Tower 2 Key",
+    "type": "toggle",
+    "img": "images/items/Tower_NSMB.png",
+    "codes": "item_volcano_tower_2_key"
+  },
+  {
+    "name": "Volcano Castle Key",
+    "type": "toggle",
+    "img": "images/items/NSMB_Castle_w._Shadow.png",
+    "codes": "item_volcano_castle_key"
+  },
+  {
+    "name": "Volcano Bowser's Castle Key",
+    "type": "toggle",
+    "img": "images/items/NSMB_Bowser's_Castle_w._Shadow.png",
+    "codes": "item_volcano_bowsers_castle_key"
+  },
+  {
+    "name": "Mini Mushroom Permit",
+    "type": "toggle",
+    "img": "images/items/MinShroom.png",
+    "codes": "item_mini_mushroom_permit"
+  },
+  {
+    "name": "Blue Shell Permit",
+    "type": "toggle",
+    "img": "images/items/NSMB_Blueshell.png",
+    "codes": "item_blue_shell_permit"
+  },
+  {
+    "name": "Mega Mushroom Permit",
+    "type": "toggle",
+    "img": "images/items/Mega_Mushroom.png",
+    "codes": "item_mega_mushroom_permit"
+  },
+  {
+    "name": "Mushroom Permit",
+    "type": "toggle",
+    "img": "images/items/Mushroom.png",
+    "codes": "item_mushroom_permit"
+  },
+  {
+    "name": "Fire Flower Permit",
+    "type": "toggle",
+    "img": "images/items/NSMB_Fire_Flower.png",
+    "codes": "item_fire_flower_permit"
+  },
+  {
+    "name": "Touchscreen Pocket Permit",
+    "type": "toggle",
+    "img": "images/items/NSMBDS_Mega_Question_Block.png",
+    "codes": "item_touchscreen_pocket_permit",
+    "disabled_img": "images/items/NSMB_Unused_Purple_Question_Block.png"
+  },
+  {
+    "name": "Progressive Gate Pass",
+    "type": "consumable",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_progressive_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png",
+    "max_quantity": 32
+  },
+  {
+    "name": "World 1 Green Toad House 1 Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_1_green_toad_house_1_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 1 Orange Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_1_orange_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 1-A Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_1_a_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 1 Green Toad House 2 Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_1_green_toad_house_2_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 2 Red Toad House 1 Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_2_red_toad_house_1_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 2 Orange Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_2_orange_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 2 Green Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_2_green_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 2 Red Toad House 3 Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_2_red_toad_house_3_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 3-A Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_3_a_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 3 Orange Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_3_orange_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 3 Green Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_3_green_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 4 Red Toad House 1 Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_4_red_toad_house_1_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 4-A Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_4_a_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 4 Orange Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_4_orange_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 4 Green Toad House 2 Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_4_green_toad_house_2_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 4 Red Toad House 2 Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_4_red_toad_house_2_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 5-A Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_5_a_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 5 Red Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_5_red_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 5-B Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_5_b_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 5 Orange Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_5_orange_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 5 Green Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_5_green_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 6-A Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_6_a_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 6 Green Toad House 1 Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_6_green_toad_house_1_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 6 Orange Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_6_orange_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 6 Red Toad House 2 Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_6_red_toad_house_2_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 6-B Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_6_b_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 7 Orange Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_7_orange_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 7 Red Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_7_red_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 7 Green Toad House 1 Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_7_green_toad_house_1_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 8 Orange Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_8_orange_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 8 Red Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_8_red_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "World 8 Green Toad House Gate Pass",
+    "type": "toggle",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "item_world_8_green_toad_house_gate_pass",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png"
+  },
+  {
+    "name": "Received Star Coins",
+    "type": "consumable",
+    "img": "images/items/starcoin.png",
+    "codes": "received_star_coins",
+    "max_quantity": 240
+  },
+  {
+    "name": "Required Star Coins",
+    "type": "consumable",
+    "img": "images/items/starcoin.png",
+    "codes": "required_star_coins",
+    "max_quantity": 240,
+    "initial_quantity": 80
+  },
+  {
+    "name": "Gate Permits Received",
+    "type": "consumable",
+    "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+    "codes": "gate_permit_count",
+    "disabled_img": "images/items/NSMB_Orange_Empty_Block.png",
+    "max_quantity": 32
+  },
+  {
+    "name": "Goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/items/NSMBDS_Bowser_Jr.png",
+        "name": "Defeat Bowser",
+        "codes": "goal_setting"
+      },
+      {
+        "img": "images/items/starcoin.png",
+        "name": "Star Coin Hunt",
+        "codes": "goal_setting"
+      },
+      {
+        "img": "images/items/NSMB_Castle_w._Shadow.png",
+        "name": "World Tour",
+        "codes": "goal_setting"
+      },
+      {
+        "img": "images/items/NSMB_Bowser's_Castle_w._Shadow.png",
+        "name": "Completionist",
+        "codes": "goal_setting"
+      }
+    ]
+  },
+  {
+    "name": "Gate Mode",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/NSMB_Castle_w._Shadow.png",
+        "name": "Vanilla Star-Coin Gates",
+        "codes": "gate_mode_selector,gate_mode_vanilla"
+      },
+      {
+        "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+        "disabled_img": "images/items/NSMB_Orange_Empty_Block.png",
+        "name": "Progressive Gate Passes",
+        "codes": "gate_mode_selector,gate_mode_progressive"
+      },
+      {
+        "img": "images/items/NSMBDS_Mega_Question_Block.png",
+        "name": "Individual Gate Permits",
+        "codes": "gate_mode_selector,gate_mode_individual"
+      }
+    ]
+  },
+  {
+    "name": "Level Layout",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/NSMB_Castle_w._Shadow.png",
+        "name": "Vanilla Level Layout",
+        "codes": "level_randomization_mode,level_randomization_disabled"
+      },
+      {
+        "img": "images/items/NSMBDS_Mega_Question_Block.png",
+        "name": "Global Level Randomization",
+        "codes": "level_randomization_mode,level_randomization_enabled,level_randomization_global"
+      },
+      {
+        "img": "images/items/NSMB_Unused_Purple_Question_Block.png",
+        "disabled_img": "images/items/NSMB_Orange_Empty_Block.png",
+        "name": "Within-World Level Randomization",
+        "codes": "level_randomization_mode,level_randomization_enabled,level_randomization_within_world"
+      }
+    ]
+  },
+  {
+    "name": "Show Star Coins",
+    "type": "toggle",
+    "img": "images/items/starcoin.png",
+    "codes": "option_star_coins"
+  },
+  {
+    "name": "Show Red Coin Challenges",
+    "type": "toggle",
+    "img": "images/items/RedCoinNSMB.png",
+    "codes": "option_red_coins"
+  },
+  {
+    "name": "Show Secret Exits",
+    "type": "toggle",
+    "img": "images/items/NsmbGoalPoleSecret.png",
+    "codes": "option_secret_exits"
+  },
+  {
+    "name": "Show Toad Houses",
+    "type": "toggle",
+    "img": "images/items/NSMB_Toad_House_w._Shadow.png",
+    "codes": "option_toad_houses"
+  },
+  {
+    "name": "Show 1-Up Blocks",
+    "type": "toggle",
+    "img": "images/items/NSMBDS_Mega_Question_Block.png",
+    "codes": "option_one_up_blocks",
+    "disabled_img": "images/items/NSMB_Unused_Purple_Question_Block.png"
+  },
+  {
+    "name": "Show Blocksanity",
+    "type": "toggle",
+    "img": "images/items/NSMBDS_Mega_Question_Block.png",
+    "codes": "option_blocksanity",
+    "disabled_img": "images/items/NSMB_Unused_Purple_Question_Block.png"
+  },
+  {
+    "name": "Show World 6-2 Bonus Area",
+    "type": "toggle",
+    "img": "images/items/NSMBDS_Mega_Question_Block.png",
+    "codes": "option_bonus_area",
+    "disabled_img": "images/items/NSMB_Unused_Purple_Question_Block.png"
+  },
+  {
+    "name": "Use Secret Exit Shortcuts",
+    "type": "toggle",
+    "img": "images/items/Warp_PipeNSMB.png",
+    "codes": "option_secret_exit_shortcut_logic"
+  },
+  {
+    "name": "Use Secret Exit World Unlocks",
+    "type": "toggle",
+    "img": "images/items/YellowWarpPipe_NSMB.png",
+    "codes": "option_secret_exit_world_unlock_logic"
+  },
+  {
+    "name": "Use Warp Cannon Routes",
+    "type": "toggle",
+    "img": "images/items/Red_Warp_Pipe_NSMB.png",
+    "codes": "option_cannon_route_logic"
+  },
+  {
+    "name": "Follow Current Game View",
+    "type": "toggle",
+    "img": "images/items/NSMBDS_Mega_Question_Block.png",
+    "codes": "option_auto_world_switch",
+    "disabled_img": "images/items/NSMB_Unused_Purple_Question_Block.png"
+  },
+  {
+    "name": "Ignore Tower & Castle Keys",
+    "type": "toggle",
+    "img": "images/items/Tower_NSMB.png",
+    "codes": "keys_disabled"
+  },
+  {
+    "name": "Ignore Mini Mushroom Permit Requirement",
+    "type": "toggle",
+    "img": "images/items/NSMBDS_Mega_Question_Block.png",
+    "codes": "license_mini_mushroom_disabled",
+    "disabled_img": "images/items/NSMB_Unused_Purple_Question_Block.png"
+  },
+  {
+    "name": "Ignore Blue Shell Permit Requirement",
+    "type": "toggle",
+    "img": "images/items/NSMBDS_Mega_Question_Block.png",
+    "codes": "license_blue_shell_disabled",
+    "disabled_img": "images/items/NSMB_Unused_Purple_Question_Block.png"
+  },
+  {
+    "name": "Ignore Mega Mushroom Permit Requirement",
+    "type": "toggle",
+    "img": "images/items/NSMBDS_Mega_Question_Block.png",
+    "codes": "license_mega_mushroom_disabled",
+    "disabled_img": "images/items/NSMB_Unused_Purple_Question_Block.png"
+  },
+  {
+    "name": "Ignore Mushroom Permit Requirement",
+    "type": "toggle",
+    "img": "images/items/NSMBDS_Mega_Question_Block.png",
+    "codes": "license_mushroom_disabled",
+    "disabled_img": "images/items/NSMB_Unused_Purple_Question_Block.png"
+  },
+  {
+    "name": "Ignore Fire Flower Permit Requirement",
+    "type": "toggle",
+    "img": "images/items/NSMBDS_Mega_Question_Block.png",
+    "codes": "license_fire_flower_disabled",
+    "disabled_img": "images/items/NSMB_Unused_Purple_Question_Block.png"
+  },
+  {
+    "name": "Ignore Touchscreen Pocket Permit Requirement",
+    "type": "toggle",
+    "img": "images/items/NSMBDS_Mega_Question_Block.png",
+    "codes": "license_touchscreen_pocket_disabled",
+    "disabled_img": "images/items/NSMB_Unused_Purple_Question_Block.png"
+  }
+]

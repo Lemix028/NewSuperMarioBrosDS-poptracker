@@ -1,0 +1,618 @@
+[
+  {
+    "name": "world_1",
+    "location_size": 40,
+    "location_border_thickness": 3,
+    "location_shape": "rect",
+    "img": "images/maps/world_1.png"
+  },
+  {
+    "name": "World_1-1",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_1-1.png"
+  },
+  {
+    "name": "World_1-2",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_1-2.png"
+  },
+  {
+    "name": "World_1-3",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_1-3.png"
+  },
+  {
+    "name": "World_1-Tower",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_1-Tower.png"
+  },
+  {
+    "name": "World_1-4",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_1-4.png"
+  },
+  {
+    "name": "World_1-5",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_1-5.png"
+  },
+  {
+    "name": "World_1-Castle",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_1-Castle.png"
+  },
+  {
+    "name": "World_1-A",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_1-A.png"
+  },
+  {
+    "name": "world_2",
+    "location_size": 40,
+    "location_border_thickness": 3,
+    "location_shape": "rect",
+    "img": "images/maps/world_2.jpg"
+  },
+  {
+    "name": "World_2-1",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_2-1.png"
+  },
+  {
+    "name": "World_2-2",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_2-2.png"
+  },
+  {
+    "name": "World_2-3",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_2-3.png"
+  },
+  {
+    "name": "World_2-Tower",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_2-Tower.png"
+  },
+  {
+    "name": "World_2-4",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_2-4.png"
+  },
+  {
+    "name": "World_2-5",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_2-5.png"
+  },
+  {
+    "name": "World_2-6",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_2-6.png"
+  },
+  {
+    "name": "World_2-Castle",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_2-Castle.png"
+  },
+  {
+    "name": "World_2-A",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_2-A.png"
+  },
+  {
+    "name": "world_3",
+    "location_size": 40,
+    "location_border_thickness": 3,
+    "location_shape": "rect",
+    "img": "images/maps/world_3.jpg"
+  },
+  {
+    "name": "World_3-1",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_3-1.png"
+  },
+  {
+    "name": "World_3-A",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_3-A.png"
+  },
+  {
+    "name": "World_3-2",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_3-2.png"
+  },
+  {
+    "name": "World_3-Tower",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_3-Tower.png"
+  },
+  {
+    "name": "World_3-3",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_3-3.png"
+  },
+  {
+    "name": "World_3-GhostHouse",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_3-GhostHouse.png"
+  },
+  {
+    "name": "World_3-B",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_3-B.png"
+  },
+  {
+    "name": "World_3-C",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_3-C.png"
+  },
+  {
+    "name": "World_3-Castle",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_3-Castle.png"
+  },
+  {
+    "name": "world_4",
+    "location_size": 40,
+    "location_border_thickness": 3,
+    "location_shape": "rect",
+    "img": "images/maps/world_4.jpg"
+  },
+  {
+    "name": "World_4-1",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_4-1.png"
+  },
+  {
+    "name": "World_4-2",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_4-2.png"
+  },
+  {
+    "name": "World_4-3",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_4-3.png"
+  },
+  {
+    "name": "World_4-Tower",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_4-Tower.png"
+  },
+  {
+    "name": "World_4-A",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_4-A.png"
+  },
+  {
+    "name": "World_4-4",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_4-4.png"
+  },
+  {
+    "name": "World_4-GhostHouse",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_4-GhostHouse.png"
+  },
+  {
+    "name": "World_4-5",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_4-5.png"
+  },
+  {
+    "name": "World_4-6",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_4-6.png"
+  },
+  {
+    "name": "World_4-Castle",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_4-Castle.png"
+  },
+  {
+    "name": "world_5",
+    "location_size": 40,
+    "location_border_thickness": 3,
+    "location_shape": "rect",
+    "img": "images/maps/world_5.jpg"
+  },
+  {
+    "name": "World_5-1",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_5-1.png"
+  },
+  {
+    "name": "World_5-2",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_5-2.png"
+  },
+  {
+    "name": "World_5-A",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_5-A.png"
+  },
+  {
+    "name": "World_5-Tower",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_5-Tower.png"
+  },
+  {
+    "name": "World_5-3",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_5-3.png"
+  },
+  {
+    "name": "World_5-GhostHouse",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_5-GhostHouse.png"
+  },
+  {
+    "name": "World_5-B",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_5-B.png"
+  },
+  {
+    "name": "World_5-C",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_5-C.png"
+  },
+  {
+    "name": "World_5-4",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_5-4.png"
+  },
+  {
+    "name": "World_5-Castle",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_5-Castle.png"
+  },
+  {
+    "name": "world_6",
+    "location_size": 40,
+    "location_border_thickness": 3,
+    "location_shape": "rect",
+    "img": "images/maps/world_6.jpg"
+  },
+  {
+    "name": "World_6-1",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_6-1.png"
+  },
+  {
+    "name": "World_6-2",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_6-2.png"
+  },
+  {
+    "name": "World_6-Tower",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_6-Tower.png"
+  },
+  {
+    "name": "World_6-3",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_6-3.png"
+  },
+  {
+    "name": "World_6-4",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_6-4.png"
+  },
+  {
+    "name": "World_6-Tower2",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_6-Tower2.png"
+  },
+  {
+    "name": "World_6-5",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_6-5.png"
+  },
+  {
+    "name": "World_6-6",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_6-6.png"
+  },
+  {
+    "name": "World_6-Castle",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_6-Castle.png"
+  },
+  {
+    "name": "World_6-A",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_6-A.png"
+  },
+  {
+    "name": "World_6-B",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_6-B.png"
+  },
+  {
+    "name": "world_7",
+    "location_size": 40,
+    "location_border_thickness": 3,
+    "location_shape": "rect",
+    "img": "images/maps/world_7.jpg"
+  },
+  {
+    "name": "World_7-1",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_7-1.png"
+  },
+  {
+    "name": "World_7-GhostHouse",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_7-GhostHouse.png"
+  },
+  {
+    "name": "World_7-2",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_7-2.png"
+  },
+  {
+    "name": "World_7-3",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_7-3.png"
+  },
+  {
+    "name": "World_7-Tower",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_7-Tower.png"
+  },
+  {
+    "name": "World_7-4",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_7-4.png"
+  },
+  {
+    "name": "World_7-5",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_7-5.png"
+  },
+  {
+    "name": "World_7-A",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_7-A.png"
+  },
+  {
+    "name": "World_7-6",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_7-6.png"
+  },
+  {
+    "name": "World_7-7",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_7-7.png"
+  },
+  {
+    "name": "World_7-Castle",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_7-Castle.png"
+  },
+  {
+    "name": "world_8",
+    "location_size": 40,
+    "location_border_thickness": 3,
+    "location_shape": "rect",
+    "img": "images/maps/world_8.jpg"
+  },
+  {
+    "name": "World_8-1",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-1.png"
+  },
+  {
+    "name": "World_8-2",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-2.png"
+  },
+  {
+    "name": "World_8-Tower",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-Tower.png"
+  },
+  {
+    "name": "World_8-3",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-3.png"
+  },
+  {
+    "name": "World_8-4",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-4.png"
+  },
+  {
+    "name": "World_8-Castle",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-Castle.png"
+  },
+  {
+    "name": "World_8-5",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-5.png"
+  },
+  {
+    "name": "World_8-6",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-6.png"
+  },
+  {
+    "name": "World_8-7",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-7.png"
+  },
+  {
+    "name": "World_8-8",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-8.png"
+  },
+  {
+    "name": "World_8-Tower2",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-Tower2.png"
+  },
+  {
+    "name": "World_8-Bowser'sCastle",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/World_8-Bowser'sCastle.png"
+  }
+]

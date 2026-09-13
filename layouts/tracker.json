@@ -1,0 +1,1331 @@
+{
+  "tracker_default": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Progress",
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "max_width": 390,
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Seed Progress",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "52,52",
+                    "rows": [
+                      [
+                        "goal_setting",
+                        "received_star_coins",
+                        "required_star_coins",
+                        "gate_permit_count"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "World Access",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "46,46",
+                    "rows": [
+                      [
+                        "item_desert_pass",
+                        "item_isle_pass",
+                        "item_jungle_pass",
+                        "item_glacier_pass",
+                        "item_mountain_pass",
+                        "item_cloud_pass",
+                        "item_volcano_pass"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Power-Up Permits",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "46,46",
+                    "rows": [
+                      [
+                        "item_mini_mushroom_permit",
+                        "item_blue_shell_permit",
+                        "item_mega_mushroom_permit",
+                        "item_mushroom_permit",
+                        "item_fire_flower_permit",
+                        "item_touchscreen_pocket_permit"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Keys",
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "max_width": 390,
+              "content": [
+                {
+                  "type": "group",
+                  "header": "World 1 · Grassland",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "48,48",
+                    "rows": [
+                      [
+                        "item_grassland_tower_key",
+                        "item_grassland_castle_key"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "World 2 · Desert",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "48,48",
+                    "rows": [
+                      [
+                        "item_desert_tower_key",
+                        "item_desert_castle_key"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "World 3 · Tropical",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "48,48",
+                    "rows": [
+                      [
+                        "item_tropical_tower_key",
+                        "item_tropical_castle_key"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "World 4 · Jungle",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "48,48",
+                    "rows": [
+                      [
+                        "item_jungle_tower_key",
+                        "item_jungle_castle_key"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "World 5 · Glacier",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "48,48",
+                    "rows": [
+                      [
+                        "item_glacier_tower_key",
+                        "item_glacier_castle_key"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "World 6 · Mountain",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "48,48",
+                    "rows": [
+                      [
+                        "item_mountain_tower_1_key",
+                        "item_mountain_tower_2_key",
+                        "item_mountain_castle_key"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "World 7 · Sky",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "48,48",
+                    "rows": [
+                      [
+                        "item_sky_tower_key",
+                        "item_sky_castle_key"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "World 8 · Volcano",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "48,48",
+                    "rows": [
+                      [
+                        "item_volcano_tower_1_key",
+                        "item_volcano_tower_2_key",
+                        "item_volcano_castle_key",
+                        "item_volcano_bowsers_castle_key"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Gate Permits",
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "max_width": 390,
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Gate Mode",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "54,54",
+                    "rows": [
+                      [
+                        "gate_mode_selector"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Progressive Mode · Passes",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "50,50",
+                    "rows": [
+                      [
+                        "item_progressive_gate_pass"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Individual Mode · World 1",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "44,44",
+                    "rows": [
+                      [
+                        "item_world_1_green_toad_house_1_gate_pass",
+                        "item_world_1_orange_toad_house_gate_pass",
+                        "item_world_1_a_gate_pass",
+                        "item_world_1_green_toad_house_2_gate_pass"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Individual Mode · World 2",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "44,44",
+                    "rows": [
+                      [
+                        "item_world_2_red_toad_house_1_gate_pass",
+                        "item_world_2_orange_toad_house_gate_pass",
+                        "item_world_2_green_toad_house_gate_pass",
+                        "item_world_2_red_toad_house_3_gate_pass"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Individual Mode · World 3",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "44,44",
+                    "rows": [
+                      [
+                        "item_world_3_a_gate_pass",
+                        "item_world_3_orange_toad_house_gate_pass",
+                        "item_world_3_green_toad_house_gate_pass"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Individual Mode · World 4",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "44,44",
+                    "rows": [
+                      [
+                        "item_world_4_red_toad_house_1_gate_pass",
+                        "item_world_4_a_gate_pass",
+                        "item_world_4_orange_toad_house_gate_pass",
+                        "item_world_4_green_toad_house_2_gate_pass",
+                        "item_world_4_red_toad_house_2_gate_pass"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Individual Mode · World 5",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "44,44",
+                    "rows": [
+                      [
+                        "item_world_5_a_gate_pass",
+                        "item_world_5_red_toad_house_gate_pass",
+                        "item_world_5_b_gate_pass",
+                        "item_world_5_orange_toad_house_gate_pass",
+                        "item_world_5_green_toad_house_gate_pass"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Individual Mode · World 6",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "44,44",
+                    "rows": [
+                      [
+                        "item_world_6_a_gate_pass",
+                        "item_world_6_green_toad_house_1_gate_pass",
+                        "item_world_6_orange_toad_house_gate_pass",
+                        "item_world_6_red_toad_house_2_gate_pass",
+                        "item_world_6_b_gate_pass"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Individual Mode · World 7",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "44,44",
+                    "rows": [
+                      [
+                        "item_world_7_orange_toad_house_gate_pass",
+                        "item_world_7_red_toad_house_gate_pass",
+                        "item_world_7_green_toad_house_1_gate_pass"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Individual Mode · World 8",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "44,44",
+                    "rows": [
+                      [
+                        "item_world_8_orange_toad_house_gate_pass",
+                        "item_world_8_red_toad_house_gate_pass",
+                        "item_world_8_green_toad_house_gate_pass"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Configuration",
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "max_width": 390,
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Seed Configuration",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "50,50",
+                    "rows": [
+                      [
+                        "level_randomization_mode",
+                        "gate_mode_selector",
+                        "goal_setting"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Display Filters",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "42,42",
+                    "rows": [
+                      [
+                        "option_star_coins",
+                        "option_red_coins",
+                        "option_secret_exits",
+                        "option_toad_houses"
+                      ],
+                      [
+                        "option_one_up_blocks",
+                        "option_blocksanity",
+                        "option_bonus_area"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Route Logic",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "42,42",
+                    "rows": [
+                      [
+                        "option_secret_exit_shortcut_logic",
+                        "option_secret_exit_world_unlock_logic",
+                        "option_cannon_route_logic"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Navigation",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "42,42",
+                    "rows": [
+                      [
+                        "option_auto_world_switch"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Ignored Requirements",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": "42,42",
+                    "rows": [
+                      [
+                        "keys_disabled"
+                      ],
+                      [
+                        "license_mini_mushroom_disabled",
+                        "license_blue_shell_disabled",
+                        "license_mega_mushroom_disabled"
+                      ],
+                      [
+                        "license_mushroom_disabled",
+                        "license_fire_flower_disabled",
+                        "license_touchscreen_pocket_disabled"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "World 1",
+            "icon": "images/items/W1icon.png",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "W1 Overworld",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "world_1"
+                    ]
+                  }
+                },
+                {
+                  "title": "W1-1",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_1-1"
+                    ]
+                  }
+                },
+                {
+                  "title": "W1-2",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_1-2"
+                    ]
+                  }
+                },
+                {
+                  "title": "W1-3",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_1-3"
+                    ]
+                  }
+                },
+                {
+                  "title": "W1-Tower",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_1-Tower"
+                    ]
+                  }
+                },
+                {
+                  "title": "W1-4",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_1-4"
+                    ]
+                  }
+                },
+                {
+                  "title": "W1-5",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_1-5"
+                    ]
+                  }
+                },
+                {
+                  "title": "W1-Castle",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_1-Castle"
+                    ]
+                  }
+                },
+                {
+                  "title": "W1-A",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_1-A"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "World 2",
+            "icon": "images/items/W2icon.png",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "W2 Overworld",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "world_2"
+                    ]
+                  }
+                },
+                {
+                  "title": "W2-1",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_2-1"
+                    ]
+                  }
+                },
+                {
+                  "title": "W2-2",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_2-2"
+                    ]
+                  }
+                },
+                {
+                  "title": "W2-3",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_2-3"
+                    ]
+                  }
+                },
+                {
+                  "title": "W2-Tower",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_2-Tower"
+                    ]
+                  }
+                },
+                {
+                  "title": "W2-4",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_2-4"
+                    ]
+                  }
+                },
+                {
+                  "title": "W2-5",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_2-5"
+                    ]
+                  }
+                },
+                {
+                  "title": "W2-6",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_2-6"
+                    ]
+                  }
+                },
+                {
+                  "title": "W2-Castle",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_2-Castle"
+                    ]
+                  }
+                },
+                {
+                  "title": "W2-A",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_2-A"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "World 3",
+            "icon": "images/items/W3icon.png",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "W3 Overworld",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "world_3"
+                    ]
+                  }
+                },
+                {
+                  "title": "W3-1",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_3-1"
+                    ]
+                  }
+                },
+                {
+                  "title": "W3-A",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_3-A"
+                    ]
+                  }
+                },
+                {
+                  "title": "W3-2",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_3-2"
+                    ]
+                  }
+                },
+                {
+                  "title": "W3-Tower",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_3-Tower"
+                    ]
+                  }
+                },
+                {
+                  "title": "W3-3",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_3-3"
+                    ]
+                  }
+                },
+                {
+                  "title": "W3-Ghost House",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_3-GhostHouse"
+                    ]
+                  }
+                },
+                {
+                  "title": "W3-B",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_3-B"
+                    ]
+                  }
+                },
+                {
+                  "title": "W3-C",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_3-C"
+                    ]
+                  }
+                },
+                {
+                  "title": "W3-Castle",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_3-Castle"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "World 4",
+            "icon": "images/items/W4icon.png",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "W4 Overworld",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "world_4"
+                    ]
+                  }
+                },
+                {
+                  "title": "W4-1",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_4-1"
+                    ]
+                  }
+                },
+                {
+                  "title": "W4-2",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_4-2"
+                    ]
+                  }
+                },
+                {
+                  "title": "W4-3",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_4-3"
+                    ]
+                  }
+                },
+                {
+                  "title": "W4-Tower",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_4-Tower"
+                    ]
+                  }
+                },
+                {
+                  "title": "W4-A",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_4-A"
+                    ]
+                  }
+                },
+                {
+                  "title": "W4-4",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_4-4"
+                    ]
+                  }
+                },
+                {
+                  "title": "W4-Ghost House",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_4-GhostHouse"
+                    ]
+                  }
+                },
+                {
+                  "title": "W4-5",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_4-5"
+                    ]
+                  }
+                },
+                {
+                  "title": "W4-6",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_4-6"
+                    ]
+                  }
+                },
+                {
+                  "title": "W4-Castle",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_4-Castle"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "World 5",
+            "icon": "images/items/W5icon.png",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "W5 Overworld",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "world_5"
+                    ]
+                  }
+                },
+                {
+                  "title": "W5-1",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_5-1"
+                    ]
+                  }
+                },
+                {
+                  "title": "W5-2",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_5-2"
+                    ]
+                  }
+                },
+                {
+                  "title": "W5-A",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_5-A"
+                    ]
+                  }
+                },
+                {
+                  "title": "W5-Tower",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_5-Tower"
+                    ]
+                  }
+                },
+                {
+                  "title": "W5-3",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_5-3"
+                    ]
+                  }
+                },
+                {
+                  "title": "W5-Ghost House",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_5-GhostHouse"
+                    ]
+                  }
+                },
+                {
+                  "title": "W5-B",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_5-B"
+                    ]
+                  }
+                },
+                {
+                  "title": "W5-C",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_5-C"
+                    ]
+                  }
+                },
+                {
+                  "title": "W5-4",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_5-4"
+                    ]
+                  }
+                },
+                {
+                  "title": "W5-Castle",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_5-Castle"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "World 6",
+            "icon": "images/items/W6icon.png",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "W6 Overworld",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "world_6"
+                    ]
+                  }
+                },
+                {
+                  "title": "W6-1",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_6-1"
+                    ]
+                  }
+                },
+                {
+                  "title": "W6-2",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_6-2"
+                    ]
+                  }
+                },
+                {
+                  "title": "W6-Tower 1",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_6-Tower"
+                    ]
+                  }
+                },
+                {
+                  "title": "W6-3",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_6-3"
+                    ]
+                  }
+                },
+                {
+                  "title": "W6-4",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_6-4"
+                    ]
+                  }
+                },
+                {
+                  "title": "W6-Tower 2",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_6-Tower2"
+                    ]
+                  }
+                },
+                {
+                  "title": "W6-5",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_6-5"
+                    ]
+                  }
+                },
+                {
+                  "title": "W6-6",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_6-6"
+                    ]
+                  }
+                },
+                {
+                  "title": "W6-Castle",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_6-Castle"
+                    ]
+                  }
+                },
+                {
+                  "title": "W6-A",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_6-A"
+                    ]
+                  }
+                },
+                {
+                  "title": "W6-B",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_6-B"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "World 7",
+            "icon": "images/items/W7icon.png",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "W7 Overworld",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "world_7"
+                    ]
+                  }
+                },
+                {
+                  "title": "W7-1",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_7-1"
+                    ]
+                  }
+                },
+                {
+                  "title": "W7-Ghost House",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_7-GhostHouse"
+                    ]
+                  }
+                },
+                {
+                  "title": "W7-2",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_7-2"
+                    ]
+                  }
+                },
+                {
+                  "title": "W7-3",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_7-3"
+                    ]
+                  }
+                },
+                {
+                  "title": "W7-Tower",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_7-Tower"
+                    ]
+                  }
+                },
+                {
+                  "title": "W7-4",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_7-4"
+                    ]
+                  }
+                },
+                {
+                  "title": "W7-5",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_7-5"
+                    ]
+                  }
+                },
+                {
+                  "title": "W7-A",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_7-A"
+                    ]
+                  }
+                },
+                {
+                  "title": "W7-6",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_7-6"
+                    ]
+                  }
+                },
+                {
+                  "title": "W7-7",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_7-7"
+                    ]
+                  }
+                },
+                {
+                  "title": "W7-Castle",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_7-Castle"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "World 8",
+            "icon": "images/items/W8icon.png",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "W8 Overworld",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "world_8"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-1",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-1"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-2",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-2"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-Tower 1",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-Tower"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-3",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-3"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-4",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-4"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-Castle",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-Castle"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-5",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-5"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-6",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-6"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-7",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-7"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-8",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-8"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-Tower 2",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-Tower2"
+                    ]
+                  }
+                },
+                {
+                  "title": "W8-Bowser's Castle",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "World_8-Bowser'sCastle"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

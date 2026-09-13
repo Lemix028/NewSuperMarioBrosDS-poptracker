@@ -1,0 +1,40 @@
+# Development files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.test-deps/
+.venv/
+venv/
+data/
+locations/
+tests/
+tools/
+images/maps/*_coordinates.json
+
+# Build output
+build/
+dist/
+*.zip
+*.zip.sha256
+images/runtime/
+
+# Unused local pack files
+scripts/manual.lua
+images/items/progression.png
+images/items/NSMBDS_Bowser_Jr_Sprite.png
+images/items/NSMB_Star_Coin_Sign.png
+
+# Local development files
+.idea/
+.vscode/
+*.log
+*.tmp
+*.bak
+*.nds
+*.sav
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
