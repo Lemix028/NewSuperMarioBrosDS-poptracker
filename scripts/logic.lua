@@ -143,14 +143,20 @@ local function gateAuthorization(gateIndex)
     if gate == nil then return AccessibilityLevel.None end
     local coins = _G["starCoinGateCost" .. gateIndex]() > 0
     if not coins then return AccessibilityLevel.None end
-    if itemActive("gate_mode_vanilla") then return AccessibilityLevel.Normal end
+    local result = AccessibilityLevel.None
+    if itemActive("gate_mode_vanilla") then
+        result = AccessibilityLevel.Normal
+    end
     if itemActive("gate_mode_progressive") then
-        return boolAccess(_G["progressiveGate" .. gateIndex]() > 0)
+        result = boolAccess(_G["progressiveGate" .. gateIndex]() > 0)
     end
     if itemActive("gate_mode_individual") then
-        return boolAccess(itemActive(gate.code))
+        result = boolAccess(itemActive(gate.code))
     end
-    return AccessibilityLevel.None
+    for _, prerequisiteIndex in ipairs((NSMBDS_GATE_PREREQUISITES or {})[gateIndex] or {}) do
+        result = andAccess(result, gateAuthorization(prerequisiteIndex))
+    end
+    return result
 end
 
 gateAccess = function(gateIndex)
