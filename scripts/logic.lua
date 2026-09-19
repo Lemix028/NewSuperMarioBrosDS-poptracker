@@ -28,6 +28,53 @@ for gateIndex = 1, 32 do
     end
 end
 
+local individualGateCodes = {}
+for _, gate in ipairs(NSMBDS_GATE_DATA or {}) do
+    individualGateCodes[gate.code] = true
+end
+
+local function apIsConnected()
+    return AutoTracker
+        and AutoTracker.GetConnectionState
+        and AutoTracker:GetConnectionState("AP") > 1
+end
+
+-- Offline users do not have slot data to select the seed's gate mode. Make
+-- manual gate items select their matching mode so that clicking a permit has
+-- an immediate, intuitive effect. A live AP connection remains authoritative.
+local function selectManualGateMode(code)
+    if apIsConnected() then return end
+    local selector = Tracker:FindObjectForCode("gate_mode_selector")
+    if selector == nil then return end
+    if code == "item_progressive_gate_pass" then
+        local passes = Tracker:FindObjectForCode(code)
+        if passes and passes.AcquiredCount > 0 then selector.CurrentStage = 1 end
+    elseif individualGateCodes[code] and Tracker:ProviderCountForCode(code) > 0 then
+        selector.CurrentStage = 2
+    end
+end
+
+-- Lua-backed gate rules do not expose all of their item dependencies to
+-- PopTracker. Force a deferred-logic refresh after applying the manual mode.
+local function refreshGateLogic(code)
+    selectManualGateMode(code)
+    local previous = Tracker.BulkUpdate
+    Tracker.BulkUpdate = true
+    Tracker.BulkUpdate = previous
+end
+
+local gateWatchCodes = {
+    "received_star_coins",
+    "gate_mode_selector",
+    "item_progressive_gate_pass",
+}
+for code, _ in pairs(individualGateCodes) do
+    table.insert(gateWatchCodes, code)
+end
+for index, code in ipairs(gateWatchCodes) do
+    ScriptHost:AddWatchForCode("NSMBDS gate logic " .. tostring(index), code, refreshGateLogic)
+end
+
 -- Level Randomization keeps checks attached to course content while route
 -- requirements, keys and gates remain attached to the overworld slot. The
 -- seed supplies slot -> content; these functions evaluate the inverse lookup
